@@ -1,0 +1,36 @@
+
+@keyframes slide-left {
+    from{
+        transform:translateX(-200px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+@keyframes slide-right {
+    from{
+        transform:translateX(300px);
+    }
+    to{
+        transform:translateX(0);
+    }
+}
+
+.datos{
+    animation: slide-right 1.5s ease;
+}
+
+.cabezal h1{
+    animation: slide-left 1.5s ease;
+}
+
+.logo{
+    animation: slide-left 1.5s ease;
+}
+
+.perfil{
+    animation: slide-left 1.5s ease;
+}
+
+
