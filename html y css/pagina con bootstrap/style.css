@@ -1,0 +1,214 @@
+
+.navbar-brand img{  
+    height: 70px;
+    width: 70px;
+}
+
+/* seccion galeria*/
+.carousel{
+    width: 50%;
+}
+
+.carousel-item img{
+height: 450px;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 0px ;
+    padding: 10px 0px 0px 20px;
+}
+
+.imagenes img{
+    height: 140px;
+    width: 140px;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.archivo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+    width: 170px;
+    gap: 5px  ;
+}
+
+.archivo h5{
+    text-decoration: none;
+    text-align: center;
+}
+
+.archivo h5:hover
+{cursor: pointer;}
+
+/* fin seccion galeria*/
+
+/*beneficios*/
+
+#contenedor-beneficios{
+    margin-top: 50px;
+}
+
+
+/* contenedor cards*/
+
+.contenedor-cards{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+/* comienzo seccion sociales*/ 
+
+.contenedor-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.card-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    justify-content:center ;
+}
+
+.imagenes-sociales{
+    display :grid ; 
+    grid-template-columns: repeat(3 , 1fr);
+    grid-auto-rows: 150px;
+    width: 500px;
+    grid-gap: 20px;
+    padding: 0px 0px 0px 50px;
+}
+
+.galery-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* comienzo footer*/
+footer{
+    display: flex;
+    height: 130px;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.contenedor-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-footer{
+    display: flex;
+    height: 130px;
+    width: 120px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.img-footer img{ 
+    height: 90px;
+    width: 90px;
+}
+
+.texto-footer{
+    width: 130px;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-contacto img{
+    height: 20px;
+    width: 20x;
+}
+
+.contacto{
+    margin-top: 5px;
+    height: 70px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contacto h5{
+    text-align: center;
+}
+
+.img-contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/*fin footer*/
+
+.ventana-emergente{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.info-modal1{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-modal1 h5{
+    color: black;
+}
+
+.info-modal1 p{
+    color: black;
+}
+
+/*modal 2*/ 
+
+.ventana-emergente2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+.info-modal2{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-modal2 h5{
+    color: black;
+}
+
+.info-modal2 p{
+    color: black;
+}
+
+/* carrito*/

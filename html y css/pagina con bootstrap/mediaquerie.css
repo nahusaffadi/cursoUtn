@@ -1,0 +1,74 @@
+@media (max-width: 768px){
+    #imagenes-header{
+        display: none;
+    }
+
+    #carouselExample{
+        width: 100%
+    }
+
+    #footer{
+        width: 100%;
+        height: 280px;
+    }
+
+    #media-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 230px;
+        background-color: gray;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #logo-footer{
+        width: 70px;
+        height: 70px;
+        margin-top: 0px;
+    }
+
+    #logo-footer img{
+        width: 60px;
+        height: 60px;
+    }
+
+    #copy   {
+        display: flex;
+        height: 50px;    
+    }
+
+    .contacto-footer{
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+    }
+
+}
+
+@media (max-width: 1060px){
+    #img1{
+        display: none;
+    }
+
+    #img2{
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px){
+    #med-sociales{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        gap: 20px;
+    }
+
+    #grid-img{
+        padding: 0px 0px 30px 0px;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+
+}
+
